@@ -2,7 +2,7 @@
 {:source-paths ["src/dev"
                 "src/main"
                 "src/test"]
- :dependencies []
+ :dependencies [[reagent "0.9.1"]]
  :dev-http {9090 "public/"}
  :builds {:app {:output-dir "public/compiledjs/"
                 :asset-path "compiledjs"
